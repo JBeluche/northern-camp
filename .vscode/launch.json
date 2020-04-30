@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "NorthernCamp (Debug)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCamp Win64 Debug Build",
+			"program": "C:\\Unreal_Projects\\NorthernCamp\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "NorthernCamp (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCamp Win64 DebugGame Build",
+			"program": "C:\\Unreal_Projects\\NorthernCamp\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "NorthernCamp (Development)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCamp Win64 Development Build",
+			"program": "C:\\Unreal_Projects\\NorthernCamp\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "NorthernCamp (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCamp Win64 Shipping Build",
+			"program": "C:\\Unreal_Projects\\NorthernCamp\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "NorthernCamp (Test)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCamp Win64 Test Build",
+			"program": "C:\\Unreal_Projects\\NorthernCamp\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "NorthernCampEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCampEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject"
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "NorthernCampEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCampEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject"
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "NorthernCampEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "NorthernCampEditor Win64 Development Build",
+			"program": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject"
+			],
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\UnrealEngine\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+		}
+	]
+}

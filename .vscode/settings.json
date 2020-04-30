@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"C:/Unreal_Projects/NorthernCamp/.vscode": true,
+		"C:/Unreal_Projects/NorthernCamp/Content": true,
+		"C:/Unreal_Projects/NorthernCamp/Intermediate": true
+	}
+}

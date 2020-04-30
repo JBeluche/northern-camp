@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "NorthernCamp Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win32",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"Win64",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Shipping",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCamp IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCamp IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCamp",
+				"IOS",
+				"Test",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCampEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"Debug",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCampEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NorthernCampEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		},
+		{
+			"label": "NorthernCampEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"NorthernCampEditor",
+				"Win64",
+				"Development",
+				"C:\\Unreal_Projects\\NorthernCamp\\NorthernCamp.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UnrealEngine\\UE_4.24"
+			}
+		}
+	]
+}
